@@ -2,7 +2,7 @@ Legal Versioning is a standardized, readable, and computable way to number versi
 
 Legal Versioning gives drafters a concise way to tell users of old versions how to review new versions when they come out. Legal Versioning also enables computers to understand and compare version numbers, so software can automate rote document management tasks.
 
-## Quick Summary
+## Summary
 
 Versions are written as numeric codes, as for computer software. The simplest have three numbers, like `1.0.0`, `1.2.0`, `2.0.0`, and so on.  The most complex have four:
 
