@@ -1,4 +1,5 @@
 #!/bin/sh
 set -e
 site=legalversioning.com
-rsync -a --delete ./index.html ./styles.css $site:/var/www/$site/
+make
+rsync -a --delete ./*.html ./*.docx ./*.css $site:/var/www/$site/
