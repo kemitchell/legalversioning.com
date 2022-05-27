@@ -2,82 +2,81 @@
 <html lang=en>
 <head>
   <meta charset=UTF-8>
-  <title>Reviewers Edition</title>
+  <title>Legal Versioning</title>
   <link href=styles.css rel=stylesheet>
 </head>
 
 <body>
   <header role=banner>
-    <h1>Reviewers Edition</h1>
-    <p>The Reviewers Edition system is a standardized, readable, and computable way to mark versions of useful prose documents, like policies and legal forms.  Reviewers Edition numbers give document authors a simple, clear, and concise way to tell document users how much has changed, and what they should review, as documents evolve over time.</p>
+    <h1>Legal Versioning</h1>
+    <p>Legal Versioning is a standardized, readable, and computable way to mark versions of useful prose documents, like legal forms, notices, and policies.  Legal Versioning numbers give drafters a simple, clear, and concise way to tell those who use their documents how much has changed, and what they should review, as terms evolve over time.</p>
   </header>
 
   <nav role=navigation>
     Jump To:
-    <a href=#editions>Editions</a>,
+    <a href=#versions>Versions</a>,
     <a href=#updates>Updates</a>,
     <a href=#corrections>Corrections</a>,
     <a href=#drafts>Drafts</a>,
-    <a href=#review>Review</a>,
-    <a href=#software>Computer Software</a>
+    <a href=#review>Review</a>
   </nav>
 
   <main role=main>
 
-    <h2 id=editions>Editions</h2>
+    <h2 id=versions>Versions</h2>
 
-    <p>Reviewers Editions are written in short codes, like <code>1e</code>.  You can read this code “first edition”: <code>1</code> for “first” and <code>e</code> for “edition”.  <code>12e</code> is “twelfth edition”.  And so on.</p>
+    <p>Legal Versions are written like software versions numbers, like <code>1.0.0</code>.</p>
 
-    <p>Publishing an edition, like <code>9e</code>, followed by a higher-numbered edition, like <code>10e</code>, sends a specific message to users.  Users of <code>9e</code> should review the entire text of new <code>10e</code> to decide if the new edition meets their needs, as <code>9e</code> did.</p>
+    <p>Publishing a version, like <code>9.0.0</code>, followed by a higher-numbered version, like <code>10.0.0</code>, sends a specific message to users.  Users of <code>9.0.0</code> should review the entire text of new <code>10.0.0</code> to decide if the new edition meets their needs, as <code>9.0.0</code> did.</p>
 
     <aside class=example>
-      <p>Jane publishes a form nondisclosure agreement as <code>1e</code>.  Later on, Jane completely redrafts the form and publishes her new version as <code>2e</code>.</p>
+      <p>Jane publishes a form nondisclosure agreement as <code>1.0.0</code>.  Later on, Jane completely redrafts the form and publishes her new version as <code>2.0.0</code>.</p>
 
-      <p>Bob used <code>1e</code> with business clients for several months.  On seeing new <code>2e</code>, he understands he should read <code>2e</code> top to bottom to see if it will work with his business and clients.</p>
+      <p>Bob used <code>1.0.0</code> with business clients for several months.  On seeing new <code>2.0.0</code>, he understands he should read <code>2.0.0</code> top to bottom to see if it will work with his business and clients.</p>
     </aside>
 
     <h2 id=updates>Updates</h2>
 
-    <p>Authors often update documents to add or remove material, leaving most of the document the same.  Reviewers Editions like <code>1e1u</code>, read “first edition, first update”, or <code>10e15u</code>, read “tenth edition, fifteenth update”, describe these changes.</p>
+    <p>Drafters often update terms to add or remove material, leaving most of the terms the same.  Versions like <code>1.1.0</code> or <code>10.0.15</code> describe these changes.</p>
 
-    <p>Publishing a new update to an old edition sends a specific message to users.  Users of a <code>10e</code> should compare new <code>10e1u</code> to old <code>10e</code>, and review what has changed, to see whether the changes serve their needs.  Users of a <code>10e7u</code> should compare a new <code>10e10u</code> and review what has changed.  But users of a <code>10e</code> should review a new <code>11e1u</code> top-to-bottom, since the author used a higher edition number.</p>
+    <p>Publishing a new version with a higher update number sends a specific message to users.  Users of a <code>10.0.0</code> should compare new <code>10.1.0</code> to old <code>10.0.0</code>, and review what has changed, to see whether the changes serve their needs.  Users of a <code>10.7.0</code> should compare a new <code>10.0.10</code> and review what has changed.  But users of a <code>10.0.0</code> should review a new <code>11.1.0</code> top-to-bottom, since the author used a higher edition number.</p>
 
     <aside class=example>
-      <p>Adam publishes a form product-returns policy as <code>7e</code>.  SuperMart reviews <code>7e</code> and begins using it in stores.</p>
+      <p>Adam publishes a form product-returns policy as <code>7.0.0</code>.  Super Mart reviews <code>7.0.0</code> and begins using it in stores.</p>
 
-      <p>Adam later changes <code>7e</code> to replace language about cash refunds.  Since the rest of the policy remains the same, Adam publishes his newly revised policy as <code>7e1u</code>.  SuperMart's team sees new <code>7e1u</code>, compares it to <code>7e</code>, which they’re already using, and reviews the new language on cash refunds.  Since SuperMart prefers the old language on cash refunds, so they stick with <code>7e</code> in their stores.</p>
+      <p>Adam later changes <code>7.0.0</code> to replace language about cash refunds.  Since the rest of the policy remains the same, Adam publishes his newly revised policy as <code>7.1.0</code>.  Super Mart&rsquo;s team sees new <code>7.1.0</code>, compares it to <code>7.0.0</code>, which they’re already using, and reviews the new language on cash refunds.  Since Super Mart prefers the old language on cash refunds, so they stick with <code>7.0.0</code> in their stores.</p>
     </aside>
 
     <h2 id=corrections>Corrections</h2>
 
-    <p>Some changes to useful documents don’t add, remove, or change meaningful pieces of language, but merely correct spelling, structural, or other technical errors.  Reviewers Editions like <code>3e1c</code>, read “third edition, first correction”, or <code>7e11u3c</code>, read “seventh edition, eleventh update, third correction”, describe these changes.</p>
+    <p>Some changes don’t add, remove, or change meaningful pieces of language, but merely correct spelling, structural, or other technical errors.  Versions like <code>3.0.1</code> or <code>7.11.3</code> describe these changes.</p>
 
-    <p>Publishing a new correction to an old edition or update sends a specific message to users.  Users of a <code>10e</code> should use <code>10e1c</code> instead, and can do so without reviewing the changes.  Of course, users may always <em>choose</em> to review the changes.  But correction numbers in the Reviewers Edition system allow authors to communicate when changes go to form, rather than substance.</p>
+    <p>Publishing a new correction to an old edition or update sends a specific message to users.  Users of a <code>10.0.0</code> should use <code>10.0.1</code> instead, and can do so without reviewing the changes.  Of course, users may always <em>choose</em> to review the changes.  But correction numbers in the Legal Versioning system allow drafters to communicate when changes go to form, rather than substance.</p>
 
     <aside class=example>
-      <p>Professor Miller publishes a privacy notice for medical patients as <code>3e3u</code>.  Doctor Waller begins using <code>3e3u</code> in his practice.</p>
+      <p>Professor Miller publishes a privacy notice for medical patients as <code>3.3.0</code>.  Doctor Waller begins using <code>3.3.0</code> in his practice.</p>
 
-      <p>Professor Miller later spots a spelling error.  She quickly corrects it, and publishes a new <codE>3e3u1c</code>.  As soon as Doctor Waller sees that a new <code>3e3u1c</code> is available, he begins using it, wondering why he hadn’t spotted the typo himself.</p>
+      <p>Professor Miller later spots a spelling error.  She quickly corrects it, and publishes a new <code>3.3.1</code>.  As soon as Doctor Waller sees that a new <code>3.3.1</code> is available, he begins using it, wondering why he hadn’t spotted the typo himself.</p>
     </aside>
 
     <h2 id=drafts>Drafts</h2>
 
-    <p>Document authors often create working drafts before publishing final versions.  Reviewers Editions like <code>8e1d</code>, read “first draft of eighth edition”, or <code>2e1u5c3d</code>, read “third draft of second edition, first update, fifth correction”, describe these drafts.</p>
+    <p>Drafters often create working drafts before publishing final versions.  Versions like <code>8.0.0-1</code> or <code>2.1.5-3</code> describe these drafts.</p>
 
-    <p>Publishing a document with a draft number sends a specific message to users.  Users of a <code>10e3u</code> should continue to use <code>10e3u</code>, even when <code>10e3u1c1d</code>, <code>10e3u4d</code>, or <code>11e15d</code> are available.  Authors working together to create a <code>13e</code> should review <code>13e7d</code> instead of old <code>13e6d</code>.</p>
+    <p>Publishing a document with a draft number sends a specific message to users.  Users of a <code>10.3.0</code> should continue to use <code>10.3.0</code>, even when <code>10.3.1-1</code>, <code>10.3.0-4</code>, or <code>11.0.0-15</code> are available.  Drafters working together to create a <code>13.0.0</code> should review <code>13.0.0-7</code> instead of old <code>13.0.0-6</code>.</p>
 
     <aside class=example>
-      <p>A community advocacy group is preparing a form community foundation charter.  The lead drafter prepares an initial draft, <code>1e1d</code>.  After a round of comments, the group produces <code>1e2d</code>.</p>
+      <p>A community advocacy group is preparing a form community foundation charter.  The lead drafter prepares an initial draft, <code>1.0.0-1</code>.  After a round of comments, the group produces <code>1.0.0-2</code>.</p>
 
-      <p>Bob wants to start a community foundation for his local neighborhood.  He sees the advocacy group’s <code>1e2d</code> online.  Since he does not see a final <code>1e</code>, he contacts the advocacy group to ask about the status of the form project.</p>
+      <p>Bob wants to start a community foundation for his local neighborhood.  He sees the advocacy group’s <code>1.0.0-2</code> online.  Since he does not see a final <code>1.0.0</code> without a draft number, he contacts the advocacy group to ask about the status of the form project.</p>
     </aside>
 
     <h2 id=review>Review</h2>
 
-    <p>Reviewers Edition numbers are written as codes, like <code>3e4u1c2d</code>:</p>
+    <p>Legal Versioning numbers are written as numeric codes, like <code>3.4.1-2</code>:</p>
 
     <pre>
-                3e  4u  1c  2d
+                3 . 4 . 1 - 2
 
                 │   │   │   │
 third edition ──┘   │   │   │
@@ -102,17 +101,11 @@ third edition ──┘   │   │   │
 
       <li>Adding and increasing <em>draft</em> numbers tells users that the particular revision is a new working draft.</li>
     </ul>
-
-    <h2 id=software>Computer Software</h2>
-
-    <p>Even if you don&rsquo;t write computer software yourself, you should know that Reviewers Edition codes are easy for computer programs to read and interpret.  This makes it possible to write computer programs to analyze documents marked with Reviewers Edition codes.</p>
-
-    <p>Software procedures to parse, create, interpret, compare, and explain Reviewers Edition codes are currently available <a href=https://www.npmjs.com/search?q=reviewers-edition>in the JavaScript programming language</a>.
   </main>
 
   <footer role=contentinfo>
     <p>This page &copy; <a href=https://kemitchell.com>Kyle E. Mitchell</a>.</p>
-    <p>Send feedback and changes <a href=https://github.com/kemitchell/reviewersedition.org>via GitHub</a>.
+    <p>Send feedback and changes to <a href=mailto:kyle@kemitchell.com?subject=Legal%20Versioning>kyle@kemitchell.com</a>.</p>
   </footer>
 </body>
 </html>
