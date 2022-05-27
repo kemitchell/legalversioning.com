@@ -1,7 +1,3 @@
----
-title: Legal Versioning
----
-
 Legal Versioning is a standardized, readable, and computable way to number versions of legal forms, notices, and policies.
 
 Legal Versioning gives drafters a concise way to tell users of old versions how to review new versions when they come out. Legal Versioning also enables computers to understand and compare version numbers, so software can automate rote document management tasks.
