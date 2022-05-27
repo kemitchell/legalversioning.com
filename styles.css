@@ -1,28 +1,28 @@
 html {
-  text-align: center;
-  line-height: 1.4;
   font-family: "Century Schoolbook", Georgia, Times, serif;
+  line-height: 1.4;
+  text-align: center;
 }
 
-header[role=banner],
-main[role=main],
-nav[role=navigation],
-footer[role=contentinfo] {
+body > header,
+body > main,
+body > nav,
+body > footer {
   margin-left: auto;
   margin-right: auto;
   text-align: left;
 }
 
 @media screen {
-  header[role=banner],
-  main[role=main],
-  nav[role=navigation],
-  footer[role=contentinfo] {
+  body > header,
+  body > main,
+  body > nav,
+  body > footer {
     max-width: 37rem;
   }
 }
 
-footer[role=contentinfo] {
+body > footer {
   margin-top: 3rem;
   padding-top: 0;
   text-align: right;
@@ -30,7 +30,7 @@ footer[role=contentinfo] {
 }
 
 @media screen {
-  footer[role=contentinfo] {
+  body > footer {
     border-top: 1px solid black;
     padding-bottom: 3rem;
   }
