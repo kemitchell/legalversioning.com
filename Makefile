@@ -2,7 +2,7 @@ TARGETS=index.html legal-versioning.docx
 
 all: $(TARGETS)
 
-index.html: index.md 
+index.html: index.md before.html after.html
 	cat before.html > $@
 	npx kemarkdown < $< >> $@
 	cat after.html >> $@
