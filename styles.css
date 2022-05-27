@@ -62,3 +62,8 @@ a[href] {
 a[href]:hover {
   text-decoration: underline;
 }
+
+aside {
+  margin: 0;
+  padding: 0;
+}
