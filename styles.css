@@ -13,6 +13,13 @@ body > footer {
   text-align: left;
 }
 
+body > footer {
+  font-size: 80%;
+  margin-top: 3rem;
+  padding-top: 0;
+  text-align: right;
+}
+
 @media screen {
   body > header,
   body > main,
@@ -20,16 +27,7 @@ body > footer {
   body > footer {
     max-width: 37rem;
   }
-}
 
-body > footer {
-  margin-top: 3rem;
-  padding-top: 0;
-  text-align: right;
-  font-size: 80%;
-}
-
-@media screen {
   body > footer {
     border-top: 1px solid black;
     padding-bottom: 3rem;
