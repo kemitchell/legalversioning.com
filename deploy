@@ -1,4 +1,4 @@
 #!/bin/sh
 set -e
-site=reviewersedition.org
+site=legalversioning.com
 rsync -a --delete ./index.html ./styles.css $site:/var/www/$site/
