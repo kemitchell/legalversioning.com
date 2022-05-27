@@ -1,3 +1,3 @@
-# reviewersedition.org
+# legalversioning.com
 
-an single-page explainer site for the Reviewers Edition system
+a single-page explainer site for the Legal Versioning system
