@@ -4,15 +4,16 @@ Legal Versioning gives drafters a concise way to tell users of old versions how 
 
 ## Summary
 
-Versions are written as numeric codes, as for computer software. The simplest have three numbers, like `1.0.0`, `1.2.0`, `2.0.0`, and so on.  The most complex have four:
+Versions are written as numeric codes, as for computer software. The simplest have three numbers, like `1.0.0`, `1.2.0`, `2.0.1`, and so on.
 
 ```
-                3.4.1-2
-                │ │ │ │
-third edition ──┘ │ │ └── second draft
-                  │ │     (optional)
+                1.7.3
+                │ │ │
+first edition ──┘ │ │
                   │ │
-fourth update ────┘ └──── first correction
+seventh update ───┘ │
+                    │
+third correction ───┘
 ```
 
 All together, the version `3.4.1-2` denotes a second draft of a second correction to a fourth update of a third edition of a set of terms.
@@ -25,7 +26,21 @@ Changes to the four numbers send different messages to users:
 
 - Increasing the _correction_ number tells users of that edition should always use the new version to fix a clear error. Corrections suit typo fixes, formatting errors, and other small, obvious mistakes.
 
-- _Draft_ numbers tell users that a particular version is a working draft, not a final version ready for use.
+Drafters can also number drafts by putting a fourth number after a dash at the end:
+
+```
+                3.4.1-2
+                │ │ │ │
+third edition ──┘ │ │ │
+                  │ │ │
+fourth update ────┘ │ │
+                    │ │
+frist correction ───┘ │
+                      │
+second draft ─────────┘
+```
+
+_Draft_ numbers tell users that particular versions are working drafts, not final versions ready for use.
 
 ## Editions
 
