@@ -10,9 +10,9 @@ The first number is the _edition_ number.  The second number is the _update_ num
 
 For each new version of a project, drafters increase one of the three numbers, depending on the changes they made:
 
-- Increasing the _edition_ number tells users of earlier editions to review the new version top-to-bottom to make sure it still meets their needs. New editions suit blank-slate rewrites and broad changes.
+- Increasing the _edition_ number tells users of earlier editions to review top-to-bottom to make sure the new version still meets their needs. New editions suit blank-slate rewrites and broad changes.
 
-- Increasing the _update_ number tells users of earlier updates to the same edition that they can review just the parts of the new version that. Updates suit versions that add new sections or concepts.
+- Increasing the _update_ number tells users of earlier updates to the same edition that they can review just the parts of the new version that changed, such as by preparing a redline. Updates suit versions that add new sections or concepts.
 
 - Increasing the _correction_ number tells users of that edition and update that they should always prefer the new version. Corrections suit typo fixes, formatting errors, and other small, obvious mistakes.
 
