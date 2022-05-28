@@ -24,27 +24,27 @@ The first number is the edition number. Publishing a version like `9.0.0` follow
 
 Example:
 
-  Jane publishes a form nondisclosure agreement as `1.0.0`.  Later on, Jane completely redrafts the form from scratch and publishes her new version as `2.0.0`.
+Jane publishes a form nondisclosure agreement as `1.0.0`.  Later on, Jane completely redrafts the form from scratch and publishes her new version as `2.0.0`.
 
-  Bob used `1.0.0` with business clients for several months.  On seeing new `2.0.0`, he understands he should read `2.0.0` top to bottom to see if it will work with his business and clients.
+Bob used `1.0.0` with business clients for several months.  On seeing new `2.0.0`, he understands he should read `2.0.0` top to bottom to see if it will work with his business and clients.
 
 ## Updates
 
 Drafters often update terms to add or remove material, leaving most language unchanged.  Versions like `1.1.0` or `10.0.15` describe these changes.
 
-Publishing a new version with a higher update number sends a specific message to users.  Users of a `10.0.0` should compare new `10.1.0` to old `10.0.0`, and review what has changed, to see whether the changes serve their needs.  Users of a `10.7.0` should compare a new `10.0.10` and review what has changed.  But users of a `10.0.0` should review a new `11.1.0` top-to-bottom, since the drafter used a higher edition number.
+Publishing a new `10.1.0` tells users of `10.0.0` they should compare `10.0.0` to new `10.1.0` and review the changes to see whether the changes serve their needs.  But users of old `9.0.0` should review new `10.1.0` top-to-bottom.
 
 Example:
 
-  Adam publishes a form product-returns policy as `7.0.0`.  Super Mart reviews `7.0.0` and begins using it in stores.
+Adam publishes a form product-returns policy as `7.0.0`.  Super Mart reviews `7.0.0` and begins using it in stores.
 
-  Adam later changes `7.0.0` to replace language about cash refunds.  Since the rest of the policy remains the same, Adam publishes his newly revised policy as `7.1.0`.  Super Mart's team sees new `7.1.0`, compares it to `7.0.0`, which they’re already using, and reviews the new language on cash refunds.  Since Super Mart prefers the old language on cash refunds, so they stick with `7.0.0` in their stores.
+Adam later changes `7.0.0` to replace language about cash refunds.  Since the rest of the policy remains the same, Adam publishes his newly revised policy as `7.1.0`.  Super Mart's team sees new `7.1.0`, compares it to `7.0.0`, which they’re already using, and reviews the new language on cash refunds.  Since Super Mart prefers the old language on cash refunds, so they stick with `7.0.0` in their stores.
 
 ## Corrections
 
-Some changes don’t add, remove, or change meaningful pieces of language, but merely correct spelling, structural, or other technical errors.  Versions like `3.0.1` or `7.11.3` describe these changes.
+Some changes don't add, remove, or change meaningful pieces of language, but merely correct spelling, structural, or other technical errors.  Versions like `3.0.1` or `7.11.3` describe these changes.
 
-Publishing a new correction to an old edition or update sends a specific message to users.  Users of a `10.0.0` should use `10.0.1` instead, and can do so without reviewing the changes.  Of course, users may always _choose_ to review the changes.  But correction numbers in the Legal Versioning system allow drafters to communicate when changes go to form, rather than substance.
+Publishing a new `10.0.1` tells users of `10.0.0` that they should use the new `10.0.1` with or without reviewing the changes.  Of course, users may always _choose_ to review.  But the use of a correction number allows drafters to communicate when changes fix errors, rather than adjust scope or intended effects.
 
 Example:
 
@@ -56,7 +56,7 @@ Professor Miller later spots a spelling error.  She quickly corrects it, and pub
 
 Drafters often create working drafts before publishing final versions.  Versions like `8.0.0-1` or `2.1.5-3` describe these drafts.
 
-Publishing a document with a draft number sends a specific message to users.  Users of a `10.3.0` should continue to use `10.3.0`, even when `10.3.1-1`, `10.3.0-4`, or `11.0.0-15` are available.  Drafters working together to create a `13.0.0` should review `13.0.0-7` instead of old `13.0.0-6`.
+Publishing a new `13.0.0-1` tells users of `12.0.0` to keep using `12.0.0`.  The new edition is only a working draft, not recommended for use in practice.  If a later `13.0.0-2` comes out later, drafters working together to finalize `13.0.0` know to start from `13.0.0-2` rather than the old `13.0.0-1`.
 
 Example:
 
