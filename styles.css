@@ -57,6 +57,7 @@ h1, h2 {
 }
 
 pre {
+  font-family: Courier, monospace;
   line-height: 100%;
 }
 
