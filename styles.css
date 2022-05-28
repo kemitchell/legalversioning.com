@@ -56,7 +56,7 @@ h1, h2 {
   break-after: avoid;
 }
 
-pre, code {
+pre > code {
   font-family: Courier, monospace;
   line-height: 100%;
 }
