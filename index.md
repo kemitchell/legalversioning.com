@@ -4,44 +4,19 @@ Legal Versioning gives drafters a concise way to tell users of old versions how 
 
 ## Summary
 
-Versions are written as numeric codes, as for computer software. The simplest have three numbers, like `1.0.0`, `1.2.0`, `2.0.1`, and so on.
+Versions are written as numeric codes, as for computer software: `1.0.0`, `1.2.0`, `2.0.1`, and so on.
 
-```
-                1.7.3
-                │ │ │
-first edition ──┘ │ │
-                  │ │
-seventh update ───┘ │
-                    │
-third correction ───┘
-```
+The first number is the _edition_ number.  The second number is the _update_ number.  The third number is the _correction_ number.  Version `1.7.3` denotes the third correction to the seventh update to the first edition.
 
-All together, the version `3.4.1-2` denotes a second draft of a second correction to a fourth update of a third edition of a set of terms.
+For each new version of a project, drafters increase one of the three numbers, depending on the changes they made:
 
-Increasing each number sends a different message to users
-and reviewers:
+- Increasing the _edition_ number tells users of earlier editions to review the new version top-to-bottom to make sure it still meets their needs. New editions suit blank-slate rewrites and broad changes.
 
-- Increasing the _edition_ number tells users of lower-numbered editions to review the new version top-to-bottom to make sure it still meets their needs. New editions suit blank-slate rewrites and broad changes.
+- Increasing the _update_ number tells users of earlier updates to the same edition that they can review just the parts of the new version that. Updates suit versions that add new sections or concepts.
 
-- Increasing the _update_ number tells users of lower-numbered updates they can review just the parts of the new version that. Updates suit versions that add new sections or concepts.
+- Increasing the _correction_ number tells users of that edition and update that they should always prefer the new version. Corrections suit typo fixes, formatting errors, and other small, obvious mistakes.
 
-- Increasing the _correction_ number tells users of that edition should always use the new version to fix a clear error. Corrections suit typo fixes, formatting errors, and other small, obvious mistakes.
-
-Drafters can also number drafts by putting a fourth number after a dash at the end:
-
-```
-                3.4.1-2
-                │ │ │ │
-third edition ──┘ │ │ │
-                  │ │ │
-fourth update ────┘ │ │
-                    │ │
-frist correction ───┘ │
-                      │
-second draft ─────────┘
-```
-
-_Draft_ numbers tell users that particular versions are working drafts, not final versions ready for use.
+Drafters can also number working drafts of forthcoming editions, updates, and corrections by putting a draft number after a dash at the end.  Version `7.0.0-3` denotes a third draft of a new seventh edition.  Version `3.4.0-1` denotes the first draft of a fourth update to a third edition.
 
 ## Editions
 
