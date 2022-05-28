@@ -18,7 +18,8 @@ third correction ───┘
 
 All together, the version `3.4.1-2` denotes a second draft of a second correction to a fourth update of a third edition of a set of terms.
 
-Changes to the four numbers send different messages to users:
+Increasing each number sends a different message to users
+and reviewers:
 
 - Increasing the _edition_ number tells users of lower-numbered editions to review the new version top-to-bottom to make sure it still meets their needs. New editions suit blank-slate rewrites and broad changes.
 
