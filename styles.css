@@ -1,7 +1,11 @@
 html {
-  font-family: "Century Schoolbook", serif;
+  font-family: sans-serif;
   line-height: 1.4;
   text-align: center;
+}
+
+@media print {
+  font-family: "Century Schoolbook", serif;
 }
 
 body > header,
