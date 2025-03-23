@@ -1,10 +1,10 @@
 Legal Versioning is a standardized, readable, and computable way to number versions of legal forms, notices, and policies.
 
-Legal Versioning gives drafters a concise way to tell users of old versions how to review new versions when they come out. Legal Versioning also enables computers to understand and compare version numbers, so software can automate rote document management tasks.
+Legal Versioning gives drafters a concise way to tell users of old versions how to review new versions when they come out. Legal Versioning also enables computers to understand and compare version numbers, so software can automate rote document-management tasks.
 
 ## Summary
 
-Versions are written as numeric codes, as for computer software: `1.0.0`, `1.2.0`, `2.0.1`, and so on.
+Write versions as numeric codes, like for computer software: `1.0.0`, `1.2.0`, `2.0.1`, and so on.
 
 The first number is the _edition_ number.  The second number is the _update_ number.  The third number is the _correction_ number.  Version `1.7.3` denotes the third correction to the seventh update to the first edition.
 
@@ -42,9 +42,9 @@ Adam later changes `7.0.0` to replace language about cash refunds.  Since the re
 
 ## Corrections
 
-Some changes don't add, remove, or change meaningful pieces of language, but merely correct spelling, structural, or other technical errors.  Versions like `3.0.1` or `7.11.3` describe these changes.
+Some changes don't add, remove, or change meaningful terms, but merely correct spelling, structural, or other technical errors.  Versions like `3.0.1` or `7.11.3` describe these changes.
 
-Publishing a new `10.0.1` tells users of `10.0.0` that they should definitely use the new `10.0.1`.  Of course, users may always _choose_ to review and decide for themselves.  But the use of a correction number allows drafters to communicate when changes fix errors, rather than adjust scope or intended effects.
+Publishing a new `10.0.1` tells users of `10.0.0` that they should definitely use the new `10.0.1`.  Of course, users may always _choose_ to review and decide for themselves.  But the use of a correction number allows drafters to communicate when changes fix errors, rather than alter scope or modify meaning.
 
 Example:
 
@@ -62,4 +62,4 @@ Example:
 
 A community advocacy group is preparing a form community foundation charter.  The lead drafter prepares an initial draft, `1.0.0-1`.  After a round of comments, the group produces `1.0.0-2`.
 
-Bob wants to start a community foundation for his local neighborhood.  He sees the advocacy group’s `1.0.0-2` online.  Since he does not see a final `1.0.0` without a draft number, he contacts the advocacy group to ask about the status of the form project.
+Bob wants to start a community foundation for his local neighborhood.  He sees the advocacy group’s `1.0.0-2` online.  Since he does not see a final `1.0.0` without a draft number, he contacts the advocacy group to ask about when `1.0.0` will be ready to use.
